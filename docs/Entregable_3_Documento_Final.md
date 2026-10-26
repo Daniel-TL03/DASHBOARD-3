@@ -285,6 +285,15 @@ Autor: Daniel Tomala Lainez. Trabajo académico de la asignatura Inteligencia de
 Los datos utilizados pertenecen al conjunto público de Olist. El uso de inteligencia artificial como apoyo en programación, validación y documentación se describe en la sección 11. Las referencias identifican las fuentes de los datos y las tecnologías empleadas.
 
 
+# 16. Enlaces de entrega
+
+Video de presentación: <link href="https://drive.google.com/file/d/1WuxW5LCkx-E0G8ebV-a8BNy2nm1oERWm/view?usp=sharing" color="black"><u>Ver la presentación del dashboard en Google Drive</u></link>.
+
+Repositorio del proyecto: <link href="https://github.com/Daniel-TL03/DASHBOARD-3" color="black"><u>https://github.com/Daniel-TL03/DASHBOARD-3</u></link>.
+
+El repositorio contiene el código fuente, los scripts SQL, los datos, la documentación y el archivo enlace_video.txt con el acceso al video.
+
+
 # Anexo A. Evidencia de interacción
 
 La selección demuestra el cambio de población. El valor vendido, los pedidos, el ticket y los indicadores logísticos deben leerse junto con el período visible. El contraste independiente de la sección 6 usa el rango 2017-01 a 2018-08; la captura conserva el rango que muestra la propia pantalla.
