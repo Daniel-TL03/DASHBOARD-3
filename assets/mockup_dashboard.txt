@@ -1,0 +1,6 @@
+SIDEBAR: fechas | categoría | estado
+RESUMEN: ventas BRL | ticket BRL | pedidos
+         retrasos % | días de entrega
+         línea mensual | barras de categorías
+         barras de retraso por estado
+DETALLE: tabla filtrada | descarga CSV | controles SQL

@@ -1,0 +1,100 @@
+{
+  "global": {
+    "filtros": {
+      "a": "2016-09-04",
+      "b": "2018-10-17",
+      "c": null,
+      "r": null
+    },
+    "kpis": {
+      "ventas": 13221498.11,
+      "pedidos": 96478.0,
+      "ticket": 137.0415857501192,
+      "elegibles": 96470.0,
+      "tardios": 6534.0,
+      "retraso": 6.7730900798175595,
+      "dias": 12.558217098051976
+    },
+    "articulos": 110197,
+    "coincide_con_pandas": true
+  },
+  "filtrado": {
+    "filtros": {
+      "a": "2017-01-01",
+      "b": "2018-08-31",
+      "c": "health_beauty",
+      "r": "SP"
+    },
+    "kpis": {
+      "ventas": 453027.14,
+      "pedidos": 3705.0,
+      "ticket": 122.27453171390013,
+      "elegibles": 3705.0,
+      "tardios": 199.0,
+      "retraso": 5.371120107962213,
+      "dias": 8.15661369145799
+    },
+    "articulos": 4113,
+    "coincide_con_pandas": true
+  },
+  "vacio": {
+    "filtros": {
+      "a": "2016-09-04",
+      "b": "2016-09-04",
+      "c": "health_beauty",
+      "r": "AC"
+    },
+    "kpis": {
+      "ventas": 0.0,
+      "pedidos": 0.0,
+      "ticket": null,
+      "elegibles": 0.0,
+      "tardios": 0.0,
+      "retraso": null,
+      "dias": null
+    },
+    "articulos": 0,
+    "coincide_con_pandas": true
+  },
+  "top_categorias": [
+    {
+      "categoria": "health_beauty",
+      "ventas": 1233131.72
+    },
+    {
+      "categoria": "watches_gifts",
+      "ventas": 1166176.98
+    },
+    {
+      "categoria": "bed_bath_table",
+      "ventas": 1023434.76
+    },
+    {
+      "categoria": "sports_leisure",
+      "ventas": 954852.55
+    },
+    {
+      "categoria": "computers_accessories",
+      "ventas": 888724.61
+    }
+  ],
+  "version": "PostgreSQL 17.6 on x86_64-windows, compiled by msvc-19.44.35213, 64-bit",
+  "tables": [
+    "dim_cliente",
+    "dim_fecha",
+    "dim_producto",
+    "dim_vendedor",
+    "fact_venta_item",
+    "vw_detalle_ventas",
+    "vw_kpi_resumen_general",
+    "vw_pedido_logistica",
+    "vw_tendencia_ventas_mensual",
+    "vw_ventas_por_categoria"
+  ],
+  "source_totals": {
+    "orders": 99441,
+    "items": 112650,
+    "delivered": 96478
+  },
+  "app_no_lee_csv": true
+}
